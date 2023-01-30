@@ -11,8 +11,19 @@ public class LoginTest extends Base {
 
 	@Test
 	public void login() {
-		p.loginTest();
-		p.checkTitle();
+		try {
+			p.loginTest();
+			p.checkTitle();
+			Thread.sleep(2000);
+			p.checkEmailTextBox();
+			p.checkPasswordTextBox();
+			p.verifyLoginButton();
+			Thread.sleep(2000);
+			p.VerifyErrorPage();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }

@@ -11,43 +11,43 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-public class ExtentReportsPlugin{
+public class ExtentReportsPlugin {
 
 	public static ExtentSparkReporter reporter;
 	public static ExtentReports extent;
 	public static ExtentTest test;
-	public static TakeScreenshot screen=new TakeScreenshot();
-	
+	public static TakeScreenshot screen = new TakeScreenshot();
+
 	public void generate() {
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		reporter = new ExtentSparkReporter("Reports/"+dateName+".html");
+		reporter = new ExtentSparkReporter("Reports/" + dateName + ".html");
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
-		test=extent.createTest("MyFirstTest", "Test Description");
-		
+		test = extent.createTest("MyFirstTest", "Test Description");
+
 	}
-	
-	
+
 	public static void testPass(String stepinfo) {
 		test.log(Status.PASS, stepinfo);
 	}
-	
+
 	public static void testFail(String stepinfo) {
 		test.log(Status.FAIL, stepinfo);
 	}
-	
+
 	public static void testLog(String stepinfo) {
 		test.log(Status.INFO, stepinfo);
 	}
-	
+
 	public static void testPassWithScreenshot(String stepinfo) {
 //		test.log(Status.PASS, TakeScreenshot.takeScreenshotAtEndOfTest());
 //		test.log(Status.INFO, "Google Page opened"+test.addScreenCaptureFromPath(TakeScreenshot.takeScreenshotAtEndOfTest()));
-		test.log(Status.PASS, stepinfo).fail("Screenshot 1: ",MediaEntityBuilder.createScreenCaptureFromPath(TakeScreenshot.takeScreenshotAtEndOfTest()).build());
+		test.log(Status.PASS, stepinfo).fail("Screenshot 1: ",
+				MediaEntityBuilder.createScreenCaptureFromPath(TakeScreenshot.takeScreenshotAtEndOfTest()).build());
 	}
-	
+
 	public void end() {
 		extent.flush();
 	}
-	
+
 }

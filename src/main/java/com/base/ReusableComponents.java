@@ -1,5 +1,5 @@
 package com.base;
 
-public class ReusableComponents {
+public class ReusableComponents extends Base{
 
 }

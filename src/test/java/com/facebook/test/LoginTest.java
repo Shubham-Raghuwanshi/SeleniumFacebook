@@ -2,10 +2,10 @@ package com.facebook.test;
 
 import org.testng.annotations.Test;
 
-import com.base.Base;
+import com.base.ReusableComponents;
 import com.facebook.LoginPage;
 
-public class LoginTest extends Base {
+public class LoginTest extends ReusableComponents {
 
 	LoginPage p = new LoginPage();
 

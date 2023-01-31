@@ -15,6 +15,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -25,34 +26,37 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Shubham/.p2/pool/plugins/org.testng_7.4.0.r202105021533.jar" sourcepath="C:/Users/Shubham/.p2/pool/plugins/org.testng.source_7.4.0.r202105021533.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Shubham/.m2/repository/org/testng/testng/6.8/testng-6.8.jar" sourcepath="C:/Users/Shubham/.m2/repository/org/testng/testng/6.8/testng-6.8-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="org.testng"/>
-			<attribute name="maven.artifactId" value="testng"/>
-			<attribute name="maven.version" value="6.8"/>
-			<attribute name="maven.scope" value="test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Shubham/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar" sourcepath="C:/Users/Shubham/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.testng"/>
-			<attribute name="maven.artifactId" value="testng"/>
-			<attribute name="maven.version" value="7.4.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Shubham/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar" sourcepath="C:/Users/Shubham/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.groupId" value="org.testng"/>
-			<attribute name="maven.artifactId" value="testng"/>
-			<attribute name="maven.version" value="7.6.1"/>
-			<attribute name="maven.scope" value="test"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-1.2-api-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-1.2-api-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-1.2-api-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-api-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-api-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-api-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-core-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-core-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-core-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-core-2.0-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-flume-ng-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-flume-ng-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-flume-ng-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-jcl-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-jcl-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-jcl-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-jmx-gui-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-jmx-gui-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-jmx-gui-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-nosql-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-nosql-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-nosql-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-slf4j-impl-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-taglib-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-taglib-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-taglib-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-to-slf4j-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-web-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-web-2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-web-2.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/jar_files/slf4j-api-2.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/jar_files/slf4j-simple-2.0.6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

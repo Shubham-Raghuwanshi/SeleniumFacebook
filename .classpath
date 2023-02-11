@@ -56,7 +56,5 @@
 	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-web-2.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-web-2.0-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/apache-log4j-2.0-bin/apache-log4j-2.0-bin/log4j-web-2.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/jar_files/slf4j-api-2.0.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Shubham/Downloads/jar_files/slf4j-simple-2.0.6.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

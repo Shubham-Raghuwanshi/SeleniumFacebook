@@ -13,16 +13,23 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 
+@Listeners(ListnerTest.class)
 public class Base {
 
 	public static WebDriver driver;
+	
+	
+	
 	DesiredCapabilities capibilities;
 	public static Properties prop;
 	public static ExtentReportsPlugin test1 = new ExtentReportsPlugin();
 	public static Logger logger;
 
 	@BeforeMethod
+	
+	
 	public static void basicSetup() {
 		try {
 			logger = Logger.getLogger(Base.class);

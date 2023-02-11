@@ -13,16 +13,16 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class ExtentReportsPlugin {
 
-	public static ExtentSparkReporter reporter;
+	public static ExtentSparkReporter spark;
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	public static TakeScreenshot screen = new TakeScreenshot();
 
 	public void generate() {
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		reporter = new ExtentSparkReporter("Reports/" + dateName + ".html");
+		spark = new ExtentSparkReporter("Reports/" + dateName + ".html");
 		extent = new ExtentReports();
-		extent.attachReporter(reporter);
+		extent.attachReporter(spark);
 		test = extent.createTest("MyFirstTest", "Test Description");
 
 	}
